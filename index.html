@@ -1,0 +1,342 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Recetas</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/foundation-icons.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+  <header> <!-- Header y Menu -->
+    <div class="row column">
+      <div class="top-bar">
+        <div class="top-bar-title">
+          <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <button class="menu-icon dark" type="button" data-toggle></button>
+          </span>
+          <a href="index.html"><img src="assets/img/logo.png" alt="Chow" /></a>
+        </div>
+        <div id="responsive-menu">
+          <div class="top-bar-left"></div>
+          <div class="top-bar-right">
+            <ul class="menu menu-hover-lines">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Recetas</a></li>
+              <li><a href="#">Extras</a></li>
+              <li><a href="#">El Chef</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header> <!-- Fin Header y Menu -->
+
+  <div class="fullscreen-image-slider"> <!-- Slider Orbit -->
+    <div class="orbit" role="region" aria-label="FullScreen Pictures" data-orbit>
+      <ul class="orbit-container">
+        <button class="orbit-previous">
+          <span class="show-for-sr">Previous Slide</span>
+          <span class="nav fa fa-chevron-left fa-3x"></span>
+        </button>
+        <button class="orbit-next">
+          <span class="show-for-sr">Next Slide</span>
+          <span class="nav fa fa-chevron-right fa-3x"></span>
+        </button>
+        <li class="is-active orbit-slide">
+          <img class="orbit-image" src="assets/img/receta_1.jpeg" alt="Receta 1">
+          <figcaption class="orbit-caption">
+            <div class="tags">
+              <ul>
+                <li>Baking</li>
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+            <h2>Mexican Grilled Corn Recipe</h2>
+            <div class="details">
+              <ul>
+                <li><i class="fa fa-cutlery"></i> 4 Servings</li>
+                <li><i class="fa fa-clock-o"></i> 30 Min</li>
+                <li><i class="fa fa-user"></i> by <a href="#">Sandra Fortin</a></li>
+              </ul>
+            </div>
+            <a href="#" class="hollow button">View Recipe</a>
+          </figcaption>
+        </li>
+        <li class="orbit-slide">
+          <img class="orbit-image" src="assets/img/receta_2.jpeg" alt="Receta 2">
+          <figcaption class="orbit-caption">
+            <div class="tags">
+              <ul>
+                <li>Curry</li>
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+            <h2>Roast Chicken With Lemon Gravy</h2>
+            <div class="details">
+              <ul>
+                <li><i class="fa fa-cutlery"></i> 4 Servings</li>
+                <li><i class="fa fa-clock-o"></i> 1 Hr 20 Min</li>
+                <li><i class="fa fa-user"></i> by <a href="#">Sandra Fortin</a></li>
+              </ul>
+            </div>
+            <a href="#" class="hollow button secondary">View Recipe</a>
+          </figcaption>
+        </li>
+        <li class="orbit-slide">
+          <img class="orbit-image" src="assets/img/receta_3.jpeg" alt="Receta 3">
+          <figcaption class="orbit-caption">
+            <div class="tags">
+              <ul>
+                <li>Salads</li>
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+            <h2>Avocado Melon Salad With Lime Vinaigrette</h2>
+            <div class="details">
+              <ul>
+                <li><i class="fa fa-cutlery"></i> 1 Servings</li>
+                <li><i class="fa fa-clock-o"></i> 15 Min</li>
+                <li><i class="fa fa-user"></i> by <a href="#">Sandra Fortin</a></li>
+              </ul>
+            </div>
+            <a href="#" class="hollow button secondary">View Recipe</a>
+          </figcaption>
+        </li>
+        <li class="orbit-slide">
+          <img class="orbit-image" src="assets/img/receta_4.jpeg" alt="Receta 4">
+          <figcaption class="orbit-caption">
+            <div class="tags">
+              <ul>
+                <li>Beef</li>
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+            <h2>Chunky Beef Stew</h2>
+            <div class="details">
+              <ul>
+                <li><i class="fa fa-cutlery"></i> 4 Servings</li>
+                <li><i class="fa fa-clock-o"></i> 2 Hr 30 Min</li>
+                <li><i class="fa fa-user"></i> by <a href="#">Sandra Fortin</a></li>
+              </ul>
+            </div>
+            <a href="#" class="hollow button secondary">View Recipe</a>
+          </figcaption>
+        </li>
+      </ul>
+    </div>
+  </div> <!-- Fin Slider Orbit -->
+
+  <section class="recetas">
+    <div class="row">
+      <div class="medium-3 columns">
+        <h4 class="text-right">Últimas Recetas</h4>
+      </div>
+      <div class="medium-6 columns">
+        <hr>
+      </div>
+      <div class="medium-3 columns">
+        <form action="">
+          <div class="input-group">
+            <input class="input-group-field" type="search" placeholder="Search">
+            <div class="input-group-button">
+              <button type="submit" class="button"><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Primer bloque de Recetas -->
+    <div class="row">
+      <div class="medium-3 columns">
+        <div class="receta-detail">
+          <div class="image-hover-wrapper">
+            <span class="image-hover-wrapper-banner">Avocado Melon Salad</span>
+            <a href="#"><img src="http://lorempixel.com/300/300/food/1">
+              <span class="image-hover-wrapper-reveal">
+                <p>View Recipe<br><i class="fa fa-link" aria-hidden="true"></i></p>
+              </span>
+            </a>
+          </div>
+          <div class="rating four-stars">
+            <div class="star-rating"></div>
+            <div class="star-bg"></div>
+          </div>
+          <span class="recipe-meta"><i class="fa fa-clock-o"></i> 1 hr 30 min</span>
+        </div>
+      </div>
+      <div class="medium-3 columns">
+        <div class="receta-detail">
+          <div class="image-hover-wrapper">
+            <span class="image-hover-wrapper-banner">Roast Chicken Lemon</span>
+            <a href="#"><img src="http://lorempixel.com/300/300/food/2">
+              <span class="image-hover-wrapper-reveal">
+                <p>View Recipe<br><i class="fa fa-link" aria-hidden="true"></i></p>
+              </span>
+            </a>
+          </div>
+          <div class="rating five-stars">
+            <div class="star-rating"></div>
+            <div class="star-bg"></div>
+          </div>
+          <span class="recipe-meta"><i class="fa fa-clock-o"></i> 30 min</span>
+        </div>
+      </div>
+      <div class="medium-3 columns">
+        <div class="receta-detail">
+          <div class="image-hover-wrapper">
+            <span class="image-hover-wrapper-banner">Mexican Grilled Corn</span>
+            <a href="#"><img src="http://lorempixel.com/300/300/food/3">
+              <span class="image-hover-wrapper-reveal">
+                <p>View Recipe<br><i class="fa fa-link" aria-hidden="true"></i></p>
+              </span>
+            </a>
+          </div>
+          <div class="rating four-stars">
+            <div class="star-rating"></div>
+            <div class="star-bg"></div>
+          </div>
+          <span class="recipe-meta"><i class="fa fa-clock-o"></i> 1 hr 30 min</span>
+        </div>
+      </div>
+      <div class="medium-3 columns">
+        <img src="http://lorempixel.com/300/300/business/1/Google ADS" />
+      </div>
+    </div>
+    <!-- Segundo bloque de Recetas -->
+    <div class="row">
+      <div class="medium-3 columns">
+        <div class="receta-detail">
+          <div class="image-hover-wrapper">
+            <span class="image-hover-wrapper-banner">Arroz con Pollo</span>
+            <a href="#"><img src="http://lorempixel.com/300/300/food/4">
+              <span class="image-hover-wrapper-reveal">
+                <p>View Recipe<br><i class="fa fa-link" aria-hidden="true"></i></p>
+              </span>
+            </a>
+          </div>
+          <div class="rating four-stars">
+            <div class="star-rating"></div>
+            <div class="star-bg"></div>
+          </div>
+          <span class="recipe-meta"><i class="fa fa-clock-o"></i> 55 min</span>
+        </div>
+      </div>
+      <div class="medium-3 columns">
+        <div class="receta-detail">
+          <div class="image-hover-wrapper">
+            <span class="image-hover-wrapper-banner">Roast Chicken Lemon</span>
+            <a href="#"><img src="http://lorempixel.com/300/300/food/5">
+              <span class="image-hover-wrapper-reveal">
+                <p>View Recipe<br><i class="fa fa-link" aria-hidden="true"></i></p>
+              </span>
+            </a>
+          </div>
+          <div class="rating five-stars">
+            <div class="star-rating"></div>
+            <div class="star-bg"></div>
+          </div>
+          <span class="recipe-meta"><i class="fa fa-clock-o"></i> 1 hr</span>
+        </div>
+      </div>
+      <div class="medium-3 columns">
+        <div class="receta-detail">
+          <div class="image-hover-wrapper">
+            <span class="image-hover-wrapper-banner">Mexican Grilled Corn</span>
+            <a href="#"><img src="http://lorempixel.com/300/300/food/6">
+              <span class="image-hover-wrapper-reveal">
+                <p>View Recipe<br><i class="fa fa-link" aria-hidden="true"></i></p>
+              </span>
+            </a>
+          </div>
+          <div class="rating four-stars">
+            <div class="star-rating"></div>
+            <div class="star-bg"></div>
+          </div>
+          <span class="recipe-meta"><i class="fa fa-clock-o"></i> 1 hr 30 min</span>
+        </div>
+      </div>
+      <div class="medium-3 columns">
+        <div class="wrapper">
+          <ul class="social-icons icon-flat list-unstyled list-inline">
+            <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li> <a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li> <a href="#"><i class="fa fa-pinterest"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer">
+    <div class="row">
+      <div class="medium-4 columns">
+        <!-- Headline -->
+  			<h3 class="headline">Acerca de</h3>
+  			<span class="line"></span>
+  			<div class="clearfix"></div>
+        <p>Cras at ultrices erat, sed vulputate eros.
+           Nunc at augue gravida est fermentum vulputate.
+           Pellentesque et ipsum in dui malesuada tempus.</p>
+      </div>
+      <div class="medium-2 columns">
+        <!-- Headline -->
+  			<h3 class="headline">Archivos</h3>
+  			<span class="line"></span>
+  			<div class="clearfix"></div>
+
+  			<ul class="footer-links">
+  				<li><a href="#">June 2014</a></li>
+  				<li><a href="#">July 2014</a></li>
+  				<li><a href="#">August 2014</a></li>
+  				<li><a href="#">September 2014</a></li>
+  				<li><a href="#">November 2014</a></li>
+  			</ul>
+      </div>
+      <div class="medium-2 columns">
+        <h3 class="headline">Recetas</h3>
+			  <span class="line"></span>
+			  <div class="clearfix"></div>
+
+  			<ul class="footer-links">
+  				<li><a href="browse-recipes.html">Browse Recipes</a></li>
+  				<li><a href="recipe-page-1.html">Recipe Page</a></li>
+  				<li><a href="submit-recipe.html">Submit Recipe</a></li>
+  			</ul>
+      </div>
+      <div class="medium-4 columns">
+        <h3 class="headline">Noticias</h3>
+			  <span class="line"></span>
+			  <div class="clearfix"></div>
+			  <p>Registrese para mantenerse al dia, recibiendo un correo con las nuevas recetas, anuncios y muchas cosas mas.</p>
+        <form action="">
+          <div class="input-group">
+            <input class="input-group-field" type="email" placeholder="mail@example.com">
+            <div class="input-group-button">
+              <button type="submit" class="button">Subscribase</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="row">
+      <div class="medium-6 columns">
+        © Copyright 2017 by <a href="#">fquivera</a>. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/what-input/dist/what-input.js"></script>
+  <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
